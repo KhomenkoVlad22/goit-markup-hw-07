@@ -23,26 +23,27 @@
       <nav class="nav">
         <a href="./index.html" class="logo">
           Web<span class="black">Studio</span></a>
-        <ul class="nav-list list">
-          <li class="header-item">
-            <a class="link header-link active-page" href="./index.html">Студия</a>
+        <ul class="nav__list list">
+          <li class="nav__item">
+            <a class="link nav__link active-page" href="./index.html">Студия</a>
           </li>
-          <li class="header-item">
-            <a class="link header-link" href="./portfolio.html" target="_blank" rel="noreferrer noopener">Портфолио</a>
+          <li class="nav__item">
+            <a class="link nav__link" href="./portfolio.html" target="_blank" rel="noreferrer noopener">Портфолио</a>
           </li>
-          <li class="header-item">
-            <a class="link header-link" href="">Контакты</a>
+          <li class="nav__item">
+            <a class="link hnav__link" href="">Контакты</a>
           </li>
         </ul>
       </nav>
-      <ul class="contact-list list">
-        <li class="header-item">
-          <a class="link header-link" href="mailto:info@example.com"><svg class="contact-mail" width="16" height="12">
+      <ul class="nav-contacts list">
+        <li class="nav-contacts__item">
+          <a class="link nav-contacts__link" href="mailto:info@example.com"><svg class="contact-mail" width="16"
+              height="12">
               <use href="./images/symbol.svg#mail"></use>
             </svg>info@example.com</a>
         </li>
-        <li class="header-item">
-          <a class="link header-link" href="tel:+380991111111"><svg class="contact-mail" width="10" height="16">
+        <li class="nav-contacts__item">
+          <a class="link nav-contacts__link" href="tel:+380991111111"><svg class="contact-mail" width="10" height="16">
               <use href="./images/symbol.svg#smartphone"></use>
             </svg>+38 099 111 11 11</a>
         </li>
@@ -51,9 +52,9 @@
   </header>
   <main>
     <!-- Секція герой -->
-    <section class="section-hero">
+    <section class="hero">
       <div class="container">
-        <h1 class="title-hero white">
+        <h1 class="hero__title white">
           Эффективные решения для вашего бизнеса
         </h1>
         <button class="btn-hero" type="button" data-modal-open>Заказать услугу</button>
@@ -63,51 +64,51 @@
     <!-- Секція опису роботи -->
     <section class="section description">
       <div class="container">
-        <ul class="list description-list card-set">
-          <li class="description-item card-item">
-            <div class="descrip-other">
-              <svg class="descrip-icon" width="70" height="70">
+        <ul class="list description__list card-set">
+          <li class="description__item card-item">
+            <div class="descrip__other">
+              <svg class="descrip__icon" width="70" height="70">
                 <use href="./images/icons.svg#antenna"></use>
               </svg>
             </div>
-            <h3 class="description-title black">Внимание к деталям</h3>
-            <p class="description-text">
+            <h3 class="description__title black">Внимание к деталям</h3>
+            <p class="description__text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
-          <li class="description-item card-item">
-            <div class="descrip-other">
-              <svg class="descrip-icon" width="70" height="70">
+          <li class="description__item card-item">
+            <div class="descrip__other">
+              <svg class="descrip__icon" width="70" height="70">
                 <use href="./images/icons.svg#astronaut"></use>
               </svg>
             </div>
-            <h3 class="description-title black">Пунктуальность</h3>
-            <p class="description-text">
+            <h3 class="description__title black">Пунктуальность</h3>
+            <p class="description__text">
               Задача организации, в особенности же рамки и место обучения
               кадров влечет за собой.
             </p>
           </li>
-          <li class="description-item card-item">
-            <div class="descrip-other">
-              <svg class="descrip-icon" width="70" height="70">
+          <li class="description__item card-item">
+            <div class="descrip__other">
+              <svg class="descrip__icon" width="70" height="70">
                 <use href="./images/icons.svg#clock"></use>
               </svg>
             </div>
-            <h3 class="description-title black">Планирование</h3>
-            <p class="description-text">
+            <h3 class="description__title black">Планирование</h3>
+            <p class="description__text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
-          <li class="description-item card-item">
-            <div class="descrip-other">
-              <svg class="descrip-icon" width="70" height="70">
+          <li class="description__item card-item">
+            <div class="descrip__other">
+              <svg class="descrip__icon" width="70" height="70">
                 <use href="./images/icons.svg#diagram"></use>
               </svg>
             </div>
-            <h3 class="description-title black">Современные технологии</h3>
-            <p class="description-text">
+            <h3 class="description__title black">Современные технологии</h3>
+            <p class="description__text">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -120,18 +121,18 @@
     <section class="section about">
       <div class="container">
         <h2 class="section-title black">Чем мы занимаемся</h2>
-        <ul class="card-set about-list list">
-          <li class="about-item card-item">
+        <ul class="card-set about__list list">
+          <li class="about__item card-item">
             <img src="./images/indeximg/desktop.jpg" alt="Разработка" width="370" height="294" />
-            <p class="about-title">Десктопные приложения</p>
+            <p class="about__title">Десктопные приложения</p>
           </li>
-          <li class="about-item card-item">
+          <li class="about__item card-item">
             <img src="./images/indeximg/mobile.jpg" alt="Приложения" width="370" height="294" />
-            <p class="about-title">Мобильные приложения</p>
+            <p class="about__title">Мобильные приложения</p>
           </li>
-          <li class="about-item card-item">
+          <li class="about__item card-item">
             <img src="./images/indeximg/tablet.jpg" alt="Внедрение" width="370" height="294" />
-            <p class="about-title">Дизайнерские решения</p>
+            <p class="about__title">Дизайнерские решения</p>
           </li>
         </ul>
       </div>
