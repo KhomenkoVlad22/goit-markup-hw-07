@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --text-color-blck: #212121;
   --accent-color: #2196f3;
   --text-color-wht: #ffffff;
@@ -15,16 +15,16 @@
   --card-gap: 30px;
   --card-item: 3;
   --cubic: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-body {
+/* body {
   font-family: "Roboto";
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color-gray);
-}
-h1,
+} */
+/* h1,
 h2,
 h3,
 h4,
@@ -42,8 +42,9 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-}
-.section {
+} */
+/* .section 
+{
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -53,8 +54,8 @@ img {
   line-height: 1.16;
   text-align: center;
   margin-bottom: 50px;
-}
-.card-set {
+} */
+/* .card-set {
   display: flex;
   flex-wrap: wrap;
   gap: var(--card-gap);
@@ -63,7 +64,7 @@ img {
   flex-basis: calc(
     (100% - (var(--card-item) - 1) * var(--card-gap)) / var(--card-item)
   );
-}
+} */
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -71,15 +72,15 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-.link {
+/* .link {
   text-decoration: none;
   color: currentColor;
 }
 
 .list {
   list-style: none;
-}
-.visually-hidden{
+} */
+/* .visually-hidden{
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -90,7 +91,7 @@ padding: 0;
 clip: rect(0 0 0 0);
 clip-path:  inset(50%);
 margin: -1px;
-}
+} */
 
 /* Header */
 .header {
