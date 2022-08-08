@@ -158,28 +158,7 @@ margin: -1px;
   display: flex;
   align-items: center;
 } */
-.nav {
-  display: flex;
-  align-items: center;
-}
-.nav__list {
-  display: flex;
-  align-items: center;
-  gap: 50px;
-}
-.nav__link {
-  display: flex;
-  align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  transition: color 250ms var(--cubic);
-}
-.nav-contacts {
-  display: flex;
-  align-items: center;
-  gap: 50px;
-  margin-left: auto;
-}
+
 /* Секція Герой */
 
 /* .hero {
