@@ -51,9 +51,11 @@
     background-color: var(--text-color-wht);
     cursor: pointer;
     transition: fill 250ms var(--cubic);
+
+    &:hover,
+    &:focus {
+            fill: var(--accent-color);
+        }
+    
 }
 
-.modal-btn:hover,
-.modal-btn:focus {
-    fill: var(--accent-color);
-}
